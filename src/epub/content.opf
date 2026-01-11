@@ -29,51 +29,76 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Fantasy fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
-		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="term" refines="#subject-1">sh85047114</meta>
+		<meta property="se:subject">Fantasy</meta>
+		<meta property="se:subject">Science Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!-- The Malay Krise -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/123/the-malay-krise</dc:source>
+		<dc:source>https://archive.org/details/sim_overland-monthly-and-out-west-magazine_overland-monthly_1910-10_56_4</dc:source>
+		<!-- The Ghost of Mohammed Din -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/79/the-ghost-of-mohammed-din</dc:source>
+		<dc:source>https://archive.org/details/sim_overland-monthly-and-out-west-magazine_overland-monthly_1910-11_56_5</dc:source>
+		<!-- The Mahout -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/119/the-mahout</dc:source>
+		<dc:source>https://archive.org/details/sim_black-cat-a-monthly-magazine-of-original-short_the-black-cat_1911-08_16_191</dc:source>
+		<!-- The Raja and the Tiger -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/178/the-raja-and-the-tiger</dc:source>
+		<dc:source>https://archive.org/details/sim_black-cat-a-monthly-magazine-of-original-short_the-black-cat_1912-02_17_197</dc:source>
+		<!-- The Abominations of Yondo -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/2/the-abominations-of-yondo</dc:source>
+		<dc:source>https://archive.org/details/sim_overland-monthly-and-out-west-magazine_overland-monthly_1926-04_84_4</dc:source>
+		<!-- The Ninth Skeleton -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/156/the-ninth-skeleton</dc:source>
+		<dc:source>https://archive.org/details/Weird_Tales_v12n03_1928-09</dc:source>
+		<!-- The End of the Story -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/63/the-end-of-the-story</dc:source>
+		<dc:source>https://archive.org/details/weird-tales-v-15-n-05-1930-05-sas</dc:source>
+		<!-- The Last Incantation -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/112/the-last-incantation</dc:source>
+		<dc:source>https://archive.org/details/WeirdTalesV15N06193006</dc:source>
+		<!-- Sadastor -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/186/sadastor</dc:source>
+		<dc:source>https://archive.org/details/Weird_Tales_v16n01_1930-07</dc:source>
+		<!-- The Phantoms of the Fire -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/163/the-phantoms-of-the-fire</dc:source>
+		<dc:source>https://archive.org/details/Weird_Tales_v16n03_1930-09_sas</dc:source>
+		<!-- Marooned in Andromeda -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/125/marooned-in-andromeda</dc:source>
+		<dc:source>https://archive.org/details/Wonder_Stories_v02n05_1930-10</dc:source>
+		<!-- The Uncharted Isle -->
+		<dc:source>http://www.eldritchdark.com/writings/short-stories/226/the-uncharted-isle</dc:source>
+		<dc:source>https://archive.org/details/Weird_Tales_v16n05_1930-11_sas</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Clark_Ashton_Smith_bibliography</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/clark-ashton-smith_short-fiction</meta>
 		<dc:creator id="author">Clark Ashton Smith</dc:creator>
 		<meta property="file-as" refines="#author">Smith, Clark Ashton</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Clark_Ashton_Smith</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79041874</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Henry Fuseli</dc:contributor>
+		<meta property="file-as" refines="#artist">Fuseli, Henry</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Henry_Fuseli</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79021856</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_1_URL</meta>
+		<dc:contributor id="transcriber-1">The Eldritch Dark</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Eldritch Dark, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">http://www.eldritchdark.com/</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">TRANSCRIBER_2_URL</meta>
-		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Hendrik Kaiber</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Kaiber, Hendrik</meta>
+		<meta property="se:name.person.full-name" refines="#producer-1">Hendrik de Wetterle Bonow Kaiber</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
